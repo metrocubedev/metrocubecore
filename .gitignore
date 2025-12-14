@@ -1,12 +1,15 @@
 ```
-# Gradle
+# Dependencies
 .gradle/
-build/
-.libs/
+node_modules/
 
-# IDE
-.vscode/
+# Build artifacts
+build/
+dist/
+
+# IDE files
 .idea/
+.vscode/
 
 # Logs
 *.log
@@ -16,35 +19,54 @@ build/
 .env.local
 *.env.*
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Temp files
-*.tmp
-*.swp
-
-# Python (if any Python files exist in project)
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Node (if any JS/TS files exist in project)
-node_modules/
+# Temporary files
+*.tmp
+*.swp
+*.swo
 
-# Coverage
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# MyPy
+# Python specific
+*.egg-info/
+.eggs/
 .mypy_cache/
-
-# PyTest
 .pytest_cache/
-
-# Virtual environments
-.venv/
-venv/
+.tox/
 ```
